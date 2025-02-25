@@ -1,0 +1,33 @@
+.body{
+    background-image: url(images/one.png);
+    width: 100%;
+    height: 912px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.containe{
+    display: flex;
+}
+.logo{
+    width: 65px;
+    height: 33px;
+    margin-top: 39px;
+    margin-left: 96px;
+}
+.part{
+    display: flex;
+    margin-left: 25px;
+}
+.link{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Gill Sans', 
+    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first{
+    color: rgba(40, 219, 209, 1);
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 38px;
+}
