@@ -1,67 +1,105 @@
-.body{
-    background-image: url(images/one.png);
-    width: 100%;
-    height: 912px;
-    background-size: contain;
-    background-repeat: no-repeat;
+body{
+    font-family: Roboto;
 }
-.containe{
-    display: flex;
+.letsgo{
+    background-image: url(images/one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 912px;
 }
 .logo{
     width: 65px;
     height: 33px;
-    margin-top: 39px;
-    margin-left: 96px;
 }
-.part{
-    display: flex;
-    margin-left: 25px;
-}
-.link{
-    color: rgba(255, 255, 255, 0.5);
-    font-family: 'Gill Sans', 
-    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.first{
-    color: rgba(40, 219, 209, 1);
+.Launchpad{
+    color: rgba(40, 219, 209, 1)
 }
 li{
-    list-style: none;
-    float: left;
-    padding: 38px;
+    color: rgba(255, 255, 255, 0.5);
 }
-.connectb{
-    color: black;
-    background-color:rgba(40, 219, 209, 1);
-    height: 50px;
-    width: 125px;
-    border: none;
-    font-family: 'Lucida Sans', 
-    'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', 
-    Geneva, Verdana, sans-serif;
-    margin-left: 600px;
-    margin-top: 30px;
-}
-.mainbody{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 96px;
-    margin-top: 140px;
+.bod{
     color: white;
-    font-family: 'Trebuchet MS', 
-    'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 
-    Arial, sans-serif;
 }
 .tesnet{
-    border-radius: 115px;
-    height: 50px;
+    border-radius: 120px;
     width: 50px;
-    outline: 3px solid rgba(40, 219, 209, 1);
-    border: 5px solid rgb(43, 61, 48, 0.5);
+    height: 50px;
 }
-.rocket{
-    margin-right: 0px;
-    margin-top: -100px;
+.rocketF{
+    position: absolute;
+    top: 500px;
+    right: 360px;
+}.second{
+    height: 620px;
+    background-color: rgb(5, 19, 22);
+}
+.avata{
+    width: 803px;
+    height: 472px;
+    border-radius: 30px;
+
+}
+.floata{
+    position: absolute;
+    top: 1055px;
+    left: 920px;
+    background-color: rgba(36, 37, 46, 1);
+    width: 490px;
+    height: 410px;
+    border-radius: 20px;
+    border-width: 2px;
+}
+.Lorem{
+    color: rgba(255, 255, 255, 0.6);
+}
+.pricetag{
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 5px;
+}
+.third{
+    background-image: url(images/third.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1092px;
+}
+.Live1{
+    background-image: url(images/live1.jpeg);
+    background-size: 405px 200px;
+    background-repeat: no-repeat;
+    border: 2px solid blue;
+    height: 549px;
+}
+.Live2{
+    background-image: url(images/live2.jpeg);
+    background-size: 405px 200px;
+    background-repeat: no-repeat;
+    border: 2px solid blue;
+    height: 549px;
+}
+.Live3{
+    background-image: url(images/live3.jpeg);
+    background-size: 405px 200px;
+    background-repeat: no-repeat;
+    border: 2px solid blue;
+    height: 549px;
+}
+.firstnet{
+    border-radius: 120px;
+    width: 40px;
+    height: 40px;
+}
+.midnet{
+    border-radius: 120px;
+    width: 40px;
+    height: 40px;
+}
+.lastnet{
+    border-radius: 120px;
+    width: 40px;
+    height: 40px;
+}
+.d1{
+    
 }

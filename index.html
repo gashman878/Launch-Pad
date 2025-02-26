@@ -7,47 +7,110 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
     rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
     crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Launch Pad</title>
 </head>
 <body>
-    <div class="body"> 
-
-        <!-- The header -->
-        <div class="containe">
+    <!-- The header -->
+    <div class="letsgo">
+        <nav class="container-sm navbar navbar-expand-md">
             <img class="logo" src="images/logo.png" alt="">
-            <div class="part">
-                <ul>
-                    <li class="link first">Launchpad</li>
-                    <li class="link">Staking</li>
-                    <li class="link">Farming</li>
-                    <li class="link">About</li>
+            <div class="container-lg">
+                <ul class="nav ms-5 gap-5">
+                    <li class="nav-item Launchpad">Launchpad</li>
+                    <li class="nav-item">Staking</li>
+                    <li class="nav-item">Farming</li>
+                    <li class="nav-item">About</li>
                 </ul>
-                <button class="connectb" type="button">Connect<i class="bi bi-calendar3-event-fill"></i></button>
+                <button class="btn btn-info" type="button">Connect
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" 
+                        d="M5 2a3 3 0 0 0-3 3v17h17a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H5a1 1 0 1 1 0-2h15V2zm13 13h-3v-2h3z"/>
+                    </svg>
+                </button>
             </div>
+        </nav>      
+        <br><br><br><br><br>
+
+
+
+            <!-- The body  -->
+        <div class="container">
+
+            <div class="row">
+                <div class="col-6 text-light mt-5">
+                    <h1>WE LAUNCH ALL <br>COINS</h1><br>
+                    <p>Bring your brand to the Metaverse and grow your community, <br>
+                        or discover new collectibles while preserving the protective <br>
+                        Web2 consumer Rights experience
+                    </p><br>
+                    <button type="button" class="btn btn-info btn-lg text-black">Submit Project</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Learn More</button><br><br><br>
+                    <h5>Supported Network</h5><br><br>
+                    <img class="tesnet" src="images/tesnet.png" alt="">
+                    <p class="ms-1">TENET</p>
+                </div>
+                <div class="col-6">
+                    <img class="rocket" src="images/rocket.png" alt="">
+                    <!-- <img class="rocketF" src="images/rocketF.png" alt=""> -->
+                </div>
+            </div>
+
         </div>
 
-        <!-- The body  -->
-        <div class="mainbody">
-            <div>
-                <h1>WE LAUNCH ALL <br>COINS</h1><br><br>
-                <p>Bring your brand to the Metaverse and grow your community, <br>
-                    or discover new collectibles while preserving the protective <br>
-                    Web2 consumer Rights experience
-                </p><br>
-                <button type="button" class="btn btn-info btn-lg text-black">Submit Project</button>
-                <button type="button" class="btn btn-secondary btn-lg">Learn More</button><br><br><br>
-                <h5>Supported Network</h5><br><br>
-                <img class="tesnet" src="images/tesnet.png" alt="">
-            </div>
-            <div>
-                <img class="rocket" src="images/rocket.png" alt="">
-                <img src="images/rocketF.png" alt="">
-            </div>
-
-
-        </div>
 
     </div>
+    <div class="second">
+        <div class="container text-light text-center text-nowrap">
+            <h1 class="fw-bold">Featured Project</h1>
+            <h1 class="fw-bold me-5">coming soon.</h1>
+        </div>
+        <div class="container avata">
+            <img class="avata" src="images/avata.jpeg" alt="">
+        </div>
+        <div class="floata p-5">
+            <div class="container">
+                <h2 class="text-light">Assasin</h2>
+                <p class="Lorem">Lorem ipsum dolor sit amet consectetur, <br>
+                    adipisicing elit. Impedit et repudiandae <br> dolores voluptate!
+                </p>
+                <div class="row  bg-info align-items-center pricetag pt-3">
+                    <p class="col text-start">Price:$23.3</p>
+                    <p class="col text-end">Total Sales: $222k</p>
+                </div>
+                <br>
+                <p class="text-white">Sales end in</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="third">
+        <div class="container">
+            <h1>Live Projects</h1>
+            <div class="row gap-5">
+                <div class="col Live1">
+                    <div><img class="firstnet float-end m-4" src="images/tesnet.png" alt=""></div>
+                    <div class="d1">111</div>
+                </div>
+                <div class="col Live2">
+                    <div><img class="midnet float-end m-4" src="images/midnet.png" alt=""></div>
+                    <div class="d2">222</div>
+                </div>
+                <div class="col Live3">
+                    <div><img class="lastnet float-end m-4" src="images/lastnet.png" alt=""></div>
+                    <div class="d3">333</div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+
+
+
+    
 
 
 
