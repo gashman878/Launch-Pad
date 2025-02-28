@@ -65,27 +65,18 @@ li{
     height: 1092px;
 }
 .Live1{
-    background-image: url(images/live1.jpeg);
-    background-size: 405px 200px;
-    background-repeat: no-repeat;
     border: 2px solid blue;
     height: 549px;
 }
 .Live2{
-    background-image: url(images/live2.jpeg);
-    background-size: 405px 200px;
-    background-repeat: no-repeat;
     border: 2px solid blue;
     height: 549px;
 }
 .Live3{
-    background-image: url(images/live3.jpeg);
-    background-size: 405px 200px;
-    background-repeat: no-repeat;
     border: 2px solid blue;
     height: 549px;
 }
-.firstnet{
+/*.firstnet{
     border-radius: 120px;
     width: 40px;
     height: 40px;
@@ -99,7 +90,34 @@ li{
     border-radius: 120px;
     width: 40px;
     height: 40px;
+} */
+/* .d1{
+    background-image: url(images/d1.jpeg);
+    background-size: 76px 80px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 76px;
+    height: 76px;
+    margin-top: 160px;
+    margin-left: 10px;
 }
-.d1{
-    
+.d2{
+    background-image: url(images/d2.jpeg);
+    background-size: 76px 120px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 76px;
+    height: 76px;
+    margin-top: 160px;
+    margin-left: 10px;
 }
+.d3{
+    background-image: url(images/d3.jpeg);
+    background-size: 76px 120px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 76px;
+    height: 76px;
+    margin-top: 160px;
+    margin-left: 10px;
+} */
