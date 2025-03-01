@@ -98,7 +98,7 @@ li{
 .fourth{
     background-color: rgb(5, 19, 22);
     width: 100%;
-    height: 1080px;
+    height: 1050px;
 }
 .foating{
     width: 1290px;
@@ -122,9 +122,40 @@ li{
     left: 720px;
 }
 .fifth{
-    
     background-image: url();
     background-color: rgb(13, 48, 56);
     width: 100%;
     height: 655px;
+}
+.textholder{
+    background-color: rgb(13, 48, 56);
+    height: 200px;
+}
+.boxholder{
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    border: 2px solid blue;
+    width: 280px;
+    height: 336px;
+    color: white;
+}
+.sixth{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(5, 19, 22);
+}
+.firstext{
+    height: 250px;
+}
+.videop{
+    width: 100%;
+}
+.playimage{
+    width: 837px;
+    height: 441px;
+}
+.seventh{
+    
 }
