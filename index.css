@@ -157,5 +157,18 @@ li{
     height: 441px;
 }
 .seventh{
-    
+    background-color: rgb(13, 48, 56);
+    height:600px;
+    width: 100%;
+}
+.softe{
+    height: 509px;
+    background-color: #0c0c29;
+    border-radius: 20px;
+}
+.eight{
+    background-image: url(images/eight.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    height: 500px;
 }
