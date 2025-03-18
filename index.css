@@ -69,31 +69,68 @@ li{
     justify-content: space-between;
 }
 .Live1{
-    background-image: url(images/live1.jpeg);
     background-size: 410px 210px;
     background-repeat: no-repeat;
-    background-color: rgb(9, 36, 36);
+    background-color: rgba(10, 31, 47, 1);
     border-radius: 5px;
     width: 400px;
     height: 550px;
+    overflow: hidden;
+}
+.imgholder{
+    overflow: hidden;
+    height: 213px;
+    width: 100%;
+}
+.heldimg{
+    height: 250px;
+    width: 400px;
+}
+.flimg{
+    position: static;
+    border-radius: 50%;
+    border: 2px solid rgba(40, 219, 209, 1);
+    width: 42px;
+    height: 42px;
+    border-width: 2px;
+    margin-top: -429px;
+    margin-left: 330px;
+}
+.defi{
+    display: flex;
+    align-items: center;
+    height: 85px;
+    overflow: hidden;
+}
+.defimg1{
+    height: 80px;
+    width: 80px;
+}
+.defimg2{
+    height: 80px;
+    width: 80px;
+}
+.defimg3{
+    height: 80px;
+    width: 80px;
 }
 .Live2{
-    background-image: url(images/live2.jpeg);
     background-size: 410px 210px;
     background-repeat: no-repeat;
-    background-color: rgb(9, 36, 36);
+    background-color: rgba(10, 31, 47, 1);
     border-radius: 5px;
     width: 400px;
     height: 550px;
+    overflow: hidden;
 }
 .Live3{
-    background-image: url(images/live3.jpeg);
     background-size: 410px 210px;
     background-repeat: no-repeat;
-    background-color: rgb(9, 36, 36);
+    background-color: rgba(10, 31, 47, 1);
     border-radius: 5px;
     width: 400px;
     height: 550px;
+    overflow: hidden;
 }
 .fourth{
     background-color: rgb(5, 19, 22);
@@ -228,10 +265,11 @@ li{
 .boxholder{
     display: flex;
     justify-content: center;
+
 }
 .boxes{
-    border: 2px solid blue;
-    width: 280px;
+    justify-items: center;
+    width: 350px;
     height: 336px;
     color: white;
 }
