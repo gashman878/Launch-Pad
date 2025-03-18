@@ -212,9 +212,8 @@ li{
     color: rgba(40, 219, 209, 1)
 }
 .buttn{
-    position: absolute;
-    top: 3650px;
-    left: 720px;
+    display: flex;
+    justify-content: center;
 }
 .fifth{
     background-image: url();
@@ -224,7 +223,7 @@ li{
 }
 .textholder{
     background-color: rgb(13, 48, 56);
-    height: 200px;
+    height: 170px;
 }
 .boxholder{
     display: flex;
@@ -343,7 +342,6 @@ li{
 .bi-facebook{
     font-size: 20px;
 }
-
 .Tenpad{
     height: 75px;
     text-align: center;
