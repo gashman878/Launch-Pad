@@ -109,12 +109,107 @@ li{
     left: 150px;
 }
 .completed{
+    align-content: center;
     overflow: hidden;
     height: 187px;
     width: 100%;
-    background-color: rgb(13, 48, 56);
+    background-color: rgba(10, 31, 47, 1);
     border-radius: 5px;
     margin-bottom: 30px;
+}
+.inside{
+    width: 100%;
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+}
+.insidepic{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 150px;
+    height: 112px;
+    border-radius: 5px;
+    border: 2px solid rgba(40, 219, 209, 1);
+}
+.picimg{
+    width: 146px;
+    height: 108px;
+    border-radius: 5px;
+    border-width: 2px;
+}
+.insidewrite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 989px;
+    height: 85px;
+}
+.Cyber{
+    width: 226px;
+    height: 85px;
+}
+.cyb{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 196px;
+    height: 40px;
+}
+.prc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.5);
+    width: 226px;
+    height: 40px;
+}
+.insideimg{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.day2{
+    width: 99px;
+    height: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.rmm{
+    width: 273px;
+}
+.raised{
+    width: 123px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(193, 199, 203, 1);
+}
+.tnet{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.fiveK{
+    color: rgba(40, 219, 209, 1)
 }
 .buttn{
     position: absolute;
