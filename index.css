@@ -181,6 +181,15 @@ li{
     border-radius: 2px;
     transform: skew(-10deg);
 }
+.comproj{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
 .fourth{
     background-color: rgb(5, 19, 22);
     width: 100%;
@@ -333,13 +342,18 @@ li{
 .videop{
     width: 100%;
 }
+.playbut{
+    position: static;
+    margin-left: 600px;
+    margin-top: -485px;
+}
 .playimage{
     width: 837px;
     height: 441px;
 }
 .seventh{
     background-color: rgb(5, 19, 22);
-    height:600px;
+    height:630px;
     width: 100%;
 }
 .softe{
@@ -347,6 +361,8 @@ li{
     height: 509px;
     background-color: rgba(15, 25, 51, 1);
     border-radius: 20px;
+    width: 1400px;
+    margin: auto;
 }
 .ritup{
     height: 500px;
@@ -374,19 +390,71 @@ li{
     height: 900px;
 }
 .ourprojects{
-    display: flex;
+    background-image: url(images/eight.png);
+    background-repeat: no-repeat;
+    background-size: 100% 510px;
     width: 100%;
     height: 510px;
-    background-color: rgb(13, 48, 56);
     padding-top: 75px;
 }
+.ourprojectsholder{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 15px;
+    overflow: hidden;
+}
 .create{
-    background-color: red;
+    align-content: center;
     height: 354px;
+    font-family: roboto;
+}
+.ourrit{
+    font-size: 15px;
+}
+.createrit{
+    font-size: 57px;
+}
+.gamified{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(221, 214, 237, 1);
 }
 .others{
-    background-color: pink;
+    display: flex;
+    justify-content: space-between;
     height: 354px;
+}
+.nfts{
+    width: 252px;
+    height: 324px;
+    border-radius: 35px;
+    overflow: hidden;
+}
+.stands{
+    width: 600px;
+    height: 325px;
+    margin-left: -180px;
+}
+.shadow{
+    position: absolute;
+    background-image: linear-gradient(to right, rgba(40, 219, 209, 1), rgba(29, 161, 243, 1), rgba(40, 144, 219, 1));
+    height: 76px;
+    width: 252px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+    border-radius: 0px 0px 35px 35px;
+    opacity: 80%;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
 }
 .socials{
     background-color: rgb(5, 19, 22);
