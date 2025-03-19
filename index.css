@@ -81,6 +81,7 @@ li{
     overflow: hidden;
     height: 213px;
     width: 100%;
+    border-bottom: 2px solid rgba(40, 219, 209, 0.3);
 }
 .heldimg{
     height: 250px;
@@ -101,18 +102,54 @@ li{
     align-items: center;
     height: 85px;
     overflow: hidden;
+    position: static;
+    margin-left: 25px;
+    margin-top: -40px;
 }
-.defimg1{
+.defimg1holder{
+    overflow: hidden;
+    border-radius: 5px;
     height: 80px;
     width: 80px;
+    border: 2px solid rgba(40, 219, 209, 0.3);
+}
+.defimg1{
+    position: static;
+    margin-top: -5px;
+    margin-left: -27px;
+    height: 100px;
+    width: 130px;
+}
+.defitext{
+    align-content: center;
+    background-color: rgba(10, 31, 47, 1);
+    width: 270px;
+    height: 40px;
+    padding-left: 15px;
+    border-right: 2px solid rgba(40, 219, 209, 0.3);
+    border-bottom: 2px solid rgba(40, 219, 209, 0.3);
 }
 .defimg2{
-    height: 80px;
+    height: 130px;
     width: 80px;
 }
 .defimg3{
-    height: 80px;
+    height: 120px;
     width: 80px;
+}
+.round{
+    width: 100%;
+    margin-top: 20px;
+    line-height: 10px;
+}
+.roundname{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.roundraised{
+    margin-top: 30px;
+    line-height: 10px;
 }
 .Live2{
     background-size: 410px 210px;
@@ -131,6 +168,18 @@ li{
     width: 400px;
     height: 550px;
     overflow: hidden;
+}
+.paginates{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pagin{
+    height: 16px;
+    width: 16px;
+    background-color: rgba(40, 219, 209, 1);
+    border-radius: 2px;
+    transform: skew(-10deg);
 }
 .fourth{
     background-color: rgb(5, 19, 22);
