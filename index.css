@@ -888,14 +888,20 @@ div.benefitbox{
     width: 1440;
     height: 1091.72998046875px;
     background-image: url(images/sixth-b.png);
-    border: 2px solid orange;
     margin-top: -200px;
+    padding-top: 300px;
 }
 .firstext{
     width: 500px;
     height: 104px;
     max-width: 500px;
-    margin-top: 250px;
+    margin: auto;
+}
+.apseudoimg{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 60px;
 }
 .playimage{
     width: 837px;
