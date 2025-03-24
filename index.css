@@ -885,7 +885,7 @@ div.benefitbox{
     margin: auto;
 }
 .sixth{
-    width: 1440;
+    width: 1440px;
     height: 1091.72998046875px;
     background-image: url(images/sixth-b.png);
     margin-top: -200px;
@@ -916,25 +916,64 @@ div.benefitbox{
     margin-top: -280px;
 }
 .seventh{
-    background-color: rgb(5, 19, 22);
-    height:630px;
-    width: 100%;
-}
-.softe{
     display: flex;
+    width: 1296px;
     height: 509px;
     background-color: rgba(15, 25, 51, 1);
-    border-radius: 20px;
-    width: 1400px;
+    border-radius: 30px;
     margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    overflow: hidden;
 }
 .ritup{
-    height: 500px;
+    width: 870px;
+    height: 509px;
     align-content: center;
-    padding-left: 100px;
+    padding-left: 80px;
+}
+.stak{
+    width: 51px;
+    height: 24px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    vertical-align: middle;
+    color: rgba(40, 219, 209, 1);
+}
+.staktok{
+    width: 700px;
+    height: 60px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+.rocketwrite{
+    width: 676px;
+    height: 78px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(193, 199, 203, 1);
+    margin-top: 30px;
 }
 .tired{
-    align-content: center;
+    width: 440px;
+    height: 424px;
+    max-width: 440px;
+    padding-right: 12px;
+    padding-left: 12px;
+    align-self: center;
+    margin-top: 70px;
 }
 .sixthbutton{
     width: 152.41000366210938px;
@@ -949,6 +988,7 @@ div.benefitbox{
     font-family: Roboto;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
 }
 .handimg{
     position: absolute;
@@ -964,44 +1004,79 @@ div.benefitbox{
 }
 .eight{
     background-color: rgb(5, 19, 22);
-    width: 100%;
-    height: 900px;
-}
-.ourprojects{
+    width: 1440px;
+    height: 510px;
     background-image: url(images/eight.png);
     background-repeat: no-repeat;
-    background-size: 100% 510px;
-    width: 100%;
-    height: 510px;
-    padding-top: 75px;
+    background-size: 1440px 510px;
 }
-.ourprojectsholder{
+.ourprojects{
+    width: 1440px;
+    height: 354px;
+    padding-top: 75px;
     display: flex;
-    margin-left: 120px;
-    margin-right: 15px;
-    overflow: hidden;
+    
 }
 .create{
     align-content: center;
-    height: 354px;
     font-family: roboto;
+    width: 600px;
+    height: 353.8800048828125px;
+    max-width: 600px;
+    padding-top: 50px;
+    padding-right: 42px;
+    padding-bottom: 56.1px;
+    padding-left: 108px;
+}
+.createbox{
+    width: 450px;
+    height: 247.77999877929688px;
+    max-width: 450px;
 }
 .ourrit{
-    font-size: 15px;
+    width: 140px;
+    height: 24px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.6px;
+    vertical-align: middle;
+    background: linear-gradient(90.37deg, #28DBD1 0.27%, #1DA1F3 30%, #2890DB 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .createrit{
-    font-size: 57px;
+    width: 450px;
+    height: 125px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
 }
 .gamified{
+    width: 390px;
+    height: 64px;
     font-family: Roboto;
-    font-size: 16px;
     font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    vertical-align: middle;
     color: rgba(221, 214, 237, 1);
+    margin-top: 20px;
 }
 .others{
     display: flex;
     justify-content: space-between;
-    height: 354px;
+    width: 840px;
+    height: 353.8800048828125px;
+    max-width: 840px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 .nfts{
     width: 252px;
@@ -1033,19 +1108,25 @@ div.benefitbox{
     text-align: center;
     vertical-align: middle;
 }
-.socials{
-    background-color: rgb(5, 19, 22);
+.ninth{
+    background-image: url(images/ninth-b.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 360px;
+    width: 1440px;
     height: 360px;
-    width: 100%;
-}
-.didid{
-    height: 285px;
-    align-content: center;
+    top: 6579px;
+    gap: 120px;
+    padding-top: 120px;
+    margin-top: 120px;
 }
 .socialsH{
     display: flex;
-    justify-content: center;
-    height: 50px;
+    justify-content: space-between;
+    padding-left: 480px;
+    padding-right: 480px;
+    width: 1296px;
+    height: 45px;
+    margin: auto;
 }
 .icons{
     width: 45px;
@@ -1055,27 +1136,27 @@ div.benefitbox{
     align-content: center;
     justify-content: center;
     padding-left: 12px;
-}
-.bi-twitter{
-    font-size: 20px;
-}
-.bi-discord{
-    font-size: 20px;
-}
-.bi-twitch{
-    font-size: 20px;
-}
-.bi-instagram{
-    font-size: 20px;
-}
-.bi-linkedin{
-    font-size: 20px;
-}
-.bi-facebook{
-    font-size: 20px;
+    color: white;
 }
 .Tenpad{
+    width: 1440px;
     height: 75px;
+    padding-top: 25px;
+    padding-bottom: 24px;
     text-align: center;
     align-content: center;
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 120px;
 }  
+.tenpadtext{
+    width: 500px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(193, 199, 203, 1);
+    margin: auto;
+}
