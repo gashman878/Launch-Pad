@@ -1,85 +1,409 @@
-body{
-    font-family: Roboto;
+.homepage{
+    width: 1440px;
+    height: 6939px;
+    background-color: rgba(2, 18, 29, 1);
+    overflow: hidden;
 }
-.letsgo{
+.first{
+    height: 912px;
+    width: 1440px;
     background-image: url(images/one.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 912px;
+    background-size: 1440px 912px;
 }
-.logo{
+.headin{
+    width: 1250px;
+    height: 120px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.firstlogo{
     width: 65px;
     height: 33px;
+    top: 39px;
+    left: 96px;
+    margin-top: 35px;
 }
-.Launchpad{
-    color: rgba(40, 219, 209, 1)
+.navigat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1073px;
+    height: 64px;
+    align-self: center;
 }
-li{
+.launcholder{
+    display: flex;
+    justify-content: space-between;
+    width: 467.5px;
+    height: 64px;
+    align-items: center;
+    overflow: hidden;
+}
+.lauchpad{
+    width: 103.5px;
+    height: 64px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(40, 219, 209, 1);
+}
+.stakin{
+    width: 74px;
+    height: 64px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
     color: rgba(255, 255, 255, 0.5);
 }
-.bod{
-    color: white;
+.farmin{
+    width: 79px;
+    height: 64px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.5);
 }
-.tesnet{
-    border-radius: 120px;
-    width: 50px;
+.about{
+    width: 79px;
+    height: 64px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    align-content: center;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.5)
+}
+.bodybox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.bodytext{
+    height: 700px;
+    width: 578px;
+}
+.firstbutton{
+    background-color: rgba(40, 219, 209, 1);
+    width: 130px;
     height: 50px;
+    gap: 4.23px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.mainbody{
+    width: 578px;
+    height: 272.25px;
+    margin-top: 100px;
+    gap: 20px;
+    overflow: hidden;
+}
+.welaunch{
+    width: 578px;
+    height: 163.75px;
+    padding-bottom: 0.75px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 81.25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+}
+.bring{
+    width: 505.3599853515625px;
+    height: 88.5px;
+    max-width: 505.37px;
+    padding-bottom: 0.5px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29.25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+    margin-top: 20px;
+}
+.secondbutton{
+    background-color: rgba(40, 219, 209, 1);
+    width: 187px;
+    height: 64px;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-right: 23px;
+    padding-bottom: 18px;
+    padding-left: 23px;
+    border: none;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-top: 40px;
+    color: rgba(2, 18, 29, 1);
+}
+.thirdbutton{
+    width: 187px;
+    height: 64px;
+    top: 552px;
+    left: 309px;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-right: 39px;
+    padding-bottom: 18px;
+    padding-left: 39px;
+    background-color: rgba(36, 37, 46, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.supp{
+    width: 157px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 25px;
+}
+.testnet{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 4px solid;
+    outline: 2px solid rgba(40, 219, 209, 1);
+}
+.bodyrocket{
+    height: 700px;
+    width: 578px;
+}
+.rocket{
+    margin-left: 20px;
 }
 .rocketF{
-    position: absolute;
-    top: 500px;
-    right: 360px;
-}.second{
-    height: 620px;
-    background-color: rgb(5, 19, 22);
+    position: static;
+    margin-top: -180px;
+    margin-left: -40px;
+}
+.secondtext{
+    width: 443px;
+    height: 92px;
+    top: 935px;
+    left: 498px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.secondimages{
+    width: 1240px;
+    height: 511px;
+    margin: auto;
+    /* top: 1059px;
+    left: 100px; */
 }
 .avata{
     width: 803px;
     height: 472px;
     border-radius: 30px;
-
 }
 .floata{
     position: absolute;
-    top: 1055px;
-    left: 920px;
     background-color: rgba(36, 37, 46, 1);
     width: 490px;
     height: 410px;
     border-radius: 20px;
-    border-width: 1px;
-    border:1px solid rgba(40, 219, 209, 1);
+    border-width: 2px;
+    border:2px solid rgba(40, 219, 209, 1);
+    margin-top: -443px;
+    margin-left: 748px;
+}
+.assasinbox{
+    width: 400px;
+    height: 236px;
+    top: 67px;
+    margin: auto;
+    margin-top: 40px;
+    left: 790px; 
+    gap: 20px;    
+}
+div.assasincred{
+    width: 341px;
+    height: 124px;
+    gap: 20px;
+}
+.assasin{
+    width: 118px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
 }
 .Lorem{
+    width: 341px;
+    height: 78px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
     color: rgba(255, 255, 255, 0.6);
+}
+.pricetagbox{
+    margin-top: 10px;
+    width: 400px;
+    height: 92px;
+    gap: 20px;
 }
 .pricetag{
     display: flex;
-    align-items: center;
-    color: black;
+    width: 400px;
+    height: 46px;
+    gap: 128px;
     border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    background-color: rgba(40, 219, 209, 1);
 }
-.polygoncont{
+.price{
+    width: 97px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+.sales{
+    width: 147px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 1);
+}
+.salesend{
+    width: 92px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+}
+.timer{
     display: flex;
-    justify-content: space-between;
+    width: 372px;
+    height: 63px;
+    top: 317px;
+    left: 790px;
+    gap: 18px;
+    margin: auto;
     align-items: center;
 }
 .polygo{
-    width: 40px;
-    height: 45px;
-    background-color: rgb(5, 19, 22);
+    width: 63px;
+    height: 63px;
+    gap: 10px;
+    background-color: rgb(12, 44, 51);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    border: 1px solid rgba(40, 219, 209, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
     align-content: center;
     text-align: center;
-    border: 1px solid rgba(40, 219, 209, 1);
+    color: rgba(255, 255, 255, 1);
 }
-.daysand{
+.colon{
+    width: 4px;
+    height: 14px;
+    gap: 6px;
+    color: rgba(52, 61, 70, 1);
+}
+.matchdays{
+    width: 340px;
+    height: 26px;
+    top: 382px;
+    left: 808px;
     display: flex;
     justify-content: space-between;
-    margin-left: 8px;
-    margin-right: 8px;
-    color: white;
-    font-size: 15px;
+    margin: auto;
+    }
+.matches{
+    width: 27px;
+    height: 26px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
 }
 .fpagins{
     display: flex;
@@ -87,7 +411,6 @@ li{
     width: 153px;
     height: 17px;
     margin-top: 25px;
-    margin-left: 150px;
     gap: 10px;
 }
 .pag{
@@ -98,7 +421,7 @@ li{
     border-width: 2px;
 }
 #pag{
-    background-color: cadetblue;
+    background-color: rgb(41, 65, 66);
     border: 2px solid rgba(40, 219, 209, 1);
     width: 41px;
     height: 17px;
@@ -107,28 +430,48 @@ li{
 .third{
     background-image: url(images/third.png);
     height: 1092px;
+    width: 1440px;
+}
+.live{
+    width: 189px;
+    height: 46px;
+    top: 1639px;
+    left: 107px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 46px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 50px;
+    margin-left: 105px;
+    margin-bottom: 0px;
 }
 .liveP{
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    width: 1241px;
+    height: 548.25px;
+    top: 1717px;
+    left: 100px;
+    gap: 25px;
 }
 .Live1{
-    background-size: 410px 210px;
-    background-repeat: no-repeat;
     background-color: rgba(10, 31, 47, 1);
     border-radius: 5px;
     width: 400px;
-    height: 550px;
+    height: 548.25px;
     overflow: hidden;
 }
 .imgholder{
     overflow: hidden;
-    height: 213px;
-    width: 100%;
+    height: 212.25px;
     border-bottom: 2px solid rgba(40, 219, 209, 0.3);
 }
 .heldimg{
-    height: 250px;
+    height: 212.25px;
     width: 400px;
 }
 .flimg{
@@ -138,17 +481,19 @@ li{
     width: 42px;
     height: 42px;
     border-width: 2px;
-    margin-top: -429px;
+    margin-top: -365px;
     margin-left: 330px;
 }
 .defi{
     display: flex;
     align-items: center;
+    width: 363px;
     height: 85px;
     overflow: hidden;
-    position: static;
-    margin-left: 25px;
+    position: absolute;
+    margin-left: 18px;
     margin-top: -40px;
+    color: rgba(255, 255, 255, 1);
 }
 .defimg1holder{
     overflow: hidden;
@@ -167,7 +512,7 @@ li{
 .defitext{
     align-content: center;
     background-color: rgba(10, 31, 47, 1);
-    width: 270px;
+    width: 283px;
     height: 40px;
     padding-left: 15px;
     border-right: 2px solid rgba(40, 219, 209, 0.3);
@@ -181,29 +526,88 @@ li{
     height: 120px;
     width: 80px;
 }
-.round{
-    width: 100%;
-    margin-top: 20px;
-    line-height: 10px;
+.roundbox{
+    padding-top: 60px;
+    padding-left: 18px;
+    width: 413px;
+    height: 336px;
 }
-.roundname{
-    width: 100%;
+.names{
     display: flex;
     justify-content: space-between;
+    width: 363px;
+    height: 26px;
+    margin-top: 5px;
+}
+.parag{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(193, 199, 203, 1);
+    margin: 0px;
+}
+.values{
+    margin-right: 5px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(40, 219, 209, 1);
+    margin: 0px;
 }
 .roundraised{
-    margin-top: 30px;
-    line-height: 10px;
+    width: 363px;
+    height: 90px;
+    top: 158px;
+    left: 25px;
+    margin-top: 15px;
 }
-.Live2{
-    background-size: 410px 210px;
-    background-repeat: no-repeat;
-    background-color: rgba(10, 31, 47, 1);
+.s5000{
+    width: 363px;
+    height: 26px;
+    top: 30px;
+    padding-bottom: 1px;
+    color: rgba(40, 219, 209, 1);
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    margin: auto;
+}
+.s1500{
+    width: 136px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+.fourthbutton{
+    width: 129.48623657226562px;
+    height: 43.8477897644043px;
+    top: 259.75px;
+    left: 25px;
+    gap: 10px;
     border-radius: 5px;
-    width: 400px;
-    height: 550px;
-    overflow: hidden;
+    padding-top: 2px;
+    padding-right: 18px;
+    padding-bottom: 2px;
+    padding-left: 18px;
+    background: linear-gradient(90deg, rgba(40, 219, 209, 1), rgba(29, 161, 243, 1), rgba(40, 144, 219, 1));
+    font-size: 16px;
+    font-family: Roboto;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-weight: 600;
 }
+
 .Live3{
     background-size: 410px 210px;
     background-repeat: no-repeat;
@@ -218,14 +622,45 @@ li{
     justify-content: center;
     margin-top: 30px;
 }
-.pagin{
+#first{
     height: 16px;
     width: 16px;
     background-color: rgba(40, 219, 209, 1);
     border-radius: 2px;
     transform: skew(-10deg);
 }
+.pagin{
+    height: 16px;
+    width: 16px;
+    background-color: rgba(40, 219, 209, 1);
+    border-radius: 2px;
+    opacity: 20%;
+    transform: skew(-10deg);
+}
+.prevandcomp{
+    width: 500px;
+    height: 104px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 70px;
+}
+.previous{
+    width: 84px;
+    height: 39px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: rgba(40, 219, 209, 1);
+    margin: auto;
+}
 .comproj{
+    width: 395px;
+    height: 55px;
     font-family: Roboto;
     font-weight: 700;
     font-size: 44px;
@@ -233,46 +668,44 @@ li{
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-}
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+} 
+
 .fourth{
-    background-color: rgb(5, 19, 22);
-    width: 100%;
-    height: 1050px;
-}
-.foating{
-    width: 1290px;
-    height: 1040px;
-    background-color: rgb(5, 19, 22);
-    position: absolute;
-    top: 2550px;
-    left: 150px;
+    width: 1232px;
+    height: 1055px;
+    margin: auto;
+    margin-top: -150px;
 }
 .completed{
-    align-content: center;
-    overflow: hidden;
+    width: 1232px;
     height: 187px;
-    width: 100%;
     background-color: rgba(10, 31, 47, 1);
-    border-radius: 5px;
-    margin-bottom: 30px;
+    align-content: center;
 }
 .inside{
-    width: 100%;
     display: flex;
-    align-items: center;;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1141px;
+    height: 112px;
+    margin: auto;
+    top: 38px;
+    left: 61px;
 }
 .insidepic{
     display: flex;
     align-content: center;
     justify-content: center;
-    width: 150px;
+    width: 120px;
     height: 112px;
     border-radius: 5px;
     border: 2px solid rgba(40, 219, 209, 1);
+    overflow: hidden;
 }
 .picimg{
-    width: 146px;
+    width: 200px;
     height: 108px;
     border-radius: 5px;
     border-width: 2px;
@@ -287,19 +720,20 @@ li{
 .Cyber{
     width: 226px;
     height: 85px;
+    gap: 5px;
 }
 .cyb{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Roboto;
     font-weight: 600;
     font-size: 24px;
     line-height: 40px;
     letter-spacing: 0%;
     vertical-align: middle;
-    width: 196px;
-    height: 40px;
+    color: rgba(255, 255, 255, 1);
+;
 }
 .prc{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Roboto;
     font-weight: 600;
     font-size: 18px;
     line-height: 40px;
@@ -318,7 +752,7 @@ li{
     width: 99px;
     height: 40px;
     color: rgba(255, 255, 255, 1);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Roboto;
     font-weight: 600;
     font-size: 18px;
     line-height: 40px;
@@ -327,6 +761,7 @@ li{
 }
 .rmm{
     width: 273px;
+    height: 76px;
 }
 .raised{
     width: 123px;
@@ -346,6 +781,7 @@ li{
     line-height: 25px;
     letter-spacing: 0%;
     vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
 }
 .fiveK{
     color: rgba(40, 219, 209, 1)
@@ -355,45 +791,168 @@ li{
     justify-content: center;
 }
 .fifth{
-    /* background-image: url(images/onGb.png); */
-    background-color: rgb(13, 48, 56);
-    width: 100%;
+    background-image: url(images/onGb.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 655px;
+    border: 2px solid red;
+    width: 1440px;
     height: 655px;
 }
+div.benefitbox{
+    width: 1320px;
+    height: 537px;
+    max-width: 1320px;
+    top: 59px;
+    left: 60px;
+    gap: 32px;
+    overflow: hidden;
+    margin: auto;
+}
+.fifthbutton{
+    width: 187px;
+    height: 64px;
+    top: -32px;
+    left: 616px;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-right: 23px;
+    padding-bottom: 18px;
+    padding-left: 23px;
+    background: linear-gradient(90deg, rgba(40, 219, 209, 1), rgba(29, 161, 243, 1), rgba(40, 144, 219, 1));
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 600;
+}
 .textholder{
-    background-color: rgb(13, 48, 56);
-    height: 170px;
+    width: 500px;
+    height: 104px;
+    max-width: 500px;
+    text-align: center;
+    border: 2px solid green;
+}
+.benefits{
+    width: 82px;
+    height: 39px;
+    top: -1px;
+    left: 209.08px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: rgba(40, 219, 209, 1);
+}
+.whatwe{
+    width: 400px;
+    height: 55px;
+    top: 48px;
+    left: 119.39px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+.pseudoimg{
+    display: block;
+    margin: auto;
+    margin: 0px;
+    width: 200px;
+    height: 28.559999465942383px;
 }
 .boxholder{
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    width: 1344px;
+    height: 401px;
+    margin: auto;
+    margin-right: 0px;
+    /* padding-top: 48px; */
 }
 .boxes{
     justify-items: center;
-    width: 350px;
-    height: 336px;
+    width: 336px;
+    height: 353px;
+    max-width: 336px;
+    /* padding-right: 24px;
+    padding-left: 24px; */
     color: white;
+    border: 2px solid blue;
+}
+.boximage{
+    width: 90px;
+    height: 90px;
+    max-width: 90px;
+}
+.textbox{
+    width: 288px;
+    height: 248px;
+    gap: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.textcapital{
+    margin: auto;
+    margin: 0px 0px 0px 0px;
+    width: 310px;
+    height: 30px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 1);
+}
+.textdetail{
+    width: 256px;
+    height: 208px;
+    padding-right: 1.62px;
+    padding-left: 0.38px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(193, 199, 203, 1);
 }
 .sixth{
-    width: 100%;
-    height: 800px;
-    background-color: rgb(5, 19, 22);
+    width: 1440;
+    height: 1091.72998046875px;
+    background-image: url(images/sixth-b.png);
+    border: 2px solid orange;
+    margin-top: -200px;
 }
 .firstext{
-    height: 250px;
-}
-.videop{
-    width: 100%;
-}
-.playbut{
-    position: static;
-    margin-left: 600px;
-    margin-top: -485px;
+    width: 500px;
+    height: 104px;
+    max-width: 500px;
+    margin-top: 250px;
 }
 .playimage{
     width: 837px;
     height: 441px;
+    display: block;
+    margin: auto;
+}
+.playbut{
+    position: static;
+    display: block;
+    margin: auto;
+    margin-top: -280px;
 }
 .seventh{
     background-color: rgb(5, 19, 22);
@@ -415,6 +974,22 @@ li{
 }
 .tired{
     align-content: center;
+}
+.sixthbutton{
+    width: 152.41000366210938px;
+    height: 54px;
+    top: 355px;
+    left: 85.5px;
+    border-radius: 6px;
+    padding-top: 18px;
+    padding-right: 30.41px;
+    padding-bottom: 18px;
+    padding-left: 29px;
+    background: linear-gradient(90deg, rgba(40, 219, 209, 1), rgba(29, 161, 243, 1), rgba(40, 144, 219, 1));
+    border: none;
+    font-family: Roboto;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
 }
 .handimg{
     position: absolute;
@@ -498,7 +1073,6 @@ li{
     letter-spacing: 0%;
     text-align: center;
     vertical-align: middle;
-
 }
 .socials{
     background-color: rgb(5, 19, 22);
